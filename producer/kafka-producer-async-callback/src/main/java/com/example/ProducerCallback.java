@@ -11,7 +11,7 @@ public class ProducerCallback implements Callback {
 
     @Override
     public void onCompletion(RecordMetadata recordMetadata, Exception exception) {
-        if (exception == null) {
+        if (exception != null) {
             logger.error(exception.getMessage(), exception);
         } else {
             logger.info(recordMetadata.toString());
