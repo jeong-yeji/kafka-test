@@ -12,6 +12,8 @@
 
 [Kafka Consumer](./consumer/kafka-consumer.md)
 
+[멱등성 프로듀서, 트랜잭션 프로듀서, 트랜잭션 컨슈머](./idempotence-transaction/idempotence-transaction.md)
+
 [Kafka Streams](./streams/kafka-streams.md)
 
 [Kafka Connect](./connector/kafka-connect.md)
